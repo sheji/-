@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6338F971B0433C4008F08BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338F961B0433C4008F08BE /* main.m */; };
+		E6338F9A1B0433C4008F08BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338F991B0433C4008F08BE /* AppDelegate.m */; };
+		E6338F9D1B0433C4008F08BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338F9C1B0433C4008F08BE /* ViewController.m */; };
+		E6338FA01B0433C4008F08BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6338F9E1B0433C4008F08BE /* Main.storyboard */; };
+		E6338FA21B0433C4008F08BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6338FA11B0433C4008F08BE /* Images.xcassets */; };
+		E6338FA51B0433C4008F08BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6338FA31B0433C4008F08BE /* LaunchScreen.xib */; };
+		E6338FB11B0433C4008F08BE /* _3______________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338FB01B0433C4008F08BE /* _3______________Tests.m */; };
+		E6338FBC1B04349A008F08BE /* DUBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338FBB1B04349A008F08BE /* DUBaseView.m */; };
+		E6338FBF1B0434C8008F08BE /* DURedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338FBE1B0434C8008F08BE /* DURedView.m */; };
+		E6338FC21B0434D7008F08BE /* DUYellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338FC11B0434D7008F08BE /* DUYellowView.m */; };
+		E6338FC51B0434E5008F08BE /* DUblueView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338FC41B0434E5008F08BE /* DUblueView.m */; };
+		E6338FC81B043500008F08BE /* DUGreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338FC71B043500008F08BE /* DUGreenView.m */; };
+		E6338FCB1B043515008F08BE /* DULightRedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338FCA1B043515008F08BE /* DULightRedView.m */; };
+		E6338FCE1B044260008F08BE /* mainView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338FCD1B044260008F08BE /* mainView.m */; };
+		E6338FD11B044452008F08BE /* DUButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6338FD01B044452008F08BE /* DUButton.m */; };
+		E6A9EF801B0CAD410008CE14 /* DUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A9EF7F1B0CAD410008CE14 /* DUImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6338FAB1B0433C4008F08BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6338F891B0433C4008F08BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6338F901B0433C4008F08BE;
+			remoteInfo = "03-空间不支持与用户交互的情况";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6338F911B0433C4008F08BE /* 03-空间不支持与用户交互的情况.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-空间不支持与用户交互的情况.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6338F951B0433C4008F08BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6338F961B0433C4008F08BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6338F981B0433C4008F08BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6338F991B0433C4008F08BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6338F9B1B0433C4008F08BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6338F9C1B0433C4008F08BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6338F9F1B0433C4008F08BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6338FA11B0433C4008F08BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6338FA41B0433C4008F08BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E6338FAA1B0433C4008F08BE /* 03-空间不支持与用户交互的情况Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-空间不支持与用户交互的情况Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6338FAF1B0433C4008F08BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6338FB01B0433C4008F08BE /* _3______________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3______________Tests.m"; sourceTree = "<group>"; };
+		E6338FBA1B04349A008F08BE /* DUBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUBaseView.h; sourceTree = "<group>"; };
+		E6338FBB1B04349A008F08BE /* DUBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUBaseView.m; sourceTree = "<group>"; };
+		E6338FBD1B0434C8008F08BE /* DURedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DURedView.h; sourceTree = "<group>"; };
+		E6338FBE1B0434C8008F08BE /* DURedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DURedView.m; sourceTree = "<group>"; };
+		E6338FC01B0434D7008F08BE /* DUYellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUYellowView.h; sourceTree = "<group>"; };
+		E6338FC11B0434D7008F08BE /* DUYellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUYellowView.m; sourceTree = "<group>"; };
+		E6338FC31B0434E5008F08BE /* DUblueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUblueView.h; sourceTree = "<group>"; };
+		E6338FC41B0434E5008F08BE /* DUblueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUblueView.m; sourceTree = "<group>"; };
+		E6338FC61B043500008F08BE /* DUGreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUGreenView.h; sourceTree = "<group>"; };
+		E6338FC71B043500008F08BE /* DUGreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUGreenView.m; sourceTree = "<group>"; };
+		E6338FC91B043515008F08BE /* DULightRedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DULightRedView.h; sourceTree = "<group>"; };
+		E6338FCA1B043515008F08BE /* DULightRedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DULightRedView.m; sourceTree = "<group>"; };
+		E6338FCC1B044260008F08BE /* mainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainView.h; sourceTree = "<group>"; };
+		E6338FCD1B044260008F08BE /* mainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainView.m; sourceTree = "<group>"; };
+		E6338FCF1B044452008F08BE /* DUButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUButton.h; sourceTree = "<group>"; };
+		E6338FD01B044452008F08BE /* DUButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUButton.m; sourceTree = "<group>"; };
+		E6A9EF7E1B0CAD410008CE14 /* DUImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUImageView.h; sourceTree = "<group>"; };
+		E6A9EF7F1B0CAD410008CE14 /* DUImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6338F8E1B0433C4008F08BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6338FA71B0433C4008F08BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6338F881B0433C4008F08BE = {
+			isa = PBXGroup;
+			children = (
+				E6338F931B0433C4008F08BE /* 03-空间不支持与用户交互的情况 */,
+				E6338FAD1B0433C4008F08BE /* 03-空间不支持与用户交互的情况Tests */,
+				E6338F921B0433C4008F08BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6338F921B0433C4008F08BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6338F911B0433C4008F08BE /* 03-空间不支持与用户交互的情况.app */,
+				E6338FAA1B0433C4008F08BE /* 03-空间不支持与用户交互的情况Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6338F931B0433C4008F08BE /* 03-空间不支持与用户交互的情况 */ = {
+			isa = PBXGroup;
+			children = (
+				E6338F981B0433C4008F08BE /* AppDelegate.h */,
+				E6338F991B0433C4008F08BE /* AppDelegate.m */,
+				E6338F9B1B0433C4008F08BE /* ViewController.h */,
+				E6338F9C1B0433C4008F08BE /* ViewController.m */,
+				E6338F9E1B0433C4008F08BE /* Main.storyboard */,
+				E6338FA11B0433C4008F08BE /* Images.xcassets */,
+				E6338FA31B0433C4008F08BE /* LaunchScreen.xib */,
+				E6338F941B0433C4008F08BE /* Supporting Files */,
+				E6338FBA1B04349A008F08BE /* DUBaseView.h */,
+				E6338FBB1B04349A008F08BE /* DUBaseView.m */,
+				E6338FBD1B0434C8008F08BE /* DURedView.h */,
+				E6338FBE1B0434C8008F08BE /* DURedView.m */,
+				E6338FC01B0434D7008F08BE /* DUYellowView.h */,
+				E6338FC11B0434D7008F08BE /* DUYellowView.m */,
+				E6338FC31B0434E5008F08BE /* DUblueView.h */,
+				E6338FC41B0434E5008F08BE /* DUblueView.m */,
+				E6338FC61B043500008F08BE /* DUGreenView.h */,
+				E6338FC71B043500008F08BE /* DUGreenView.m */,
+				E6338FC91B043515008F08BE /* DULightRedView.h */,
+				E6338FCA1B043515008F08BE /* DULightRedView.m */,
+				E6338FCC1B044260008F08BE /* mainView.h */,
+				E6338FCD1B044260008F08BE /* mainView.m */,
+				E6A9EF7E1B0CAD410008CE14 /* DUImageView.h */,
+				E6A9EF7F1B0CAD410008CE14 /* DUImageView.m */,
+				E6338FCF1B044452008F08BE /* DUButton.h */,
+				E6338FD01B044452008F08BE /* DUButton.m */,
+			);
+			path = "03-空间不支持与用户交互的情况";
+			sourceTree = "<group>";
+		};
+		E6338F941B0433C4008F08BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6338F951B0433C4008F08BE /* Info.plist */,
+				E6338F961B0433C4008F08BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6338FAD1B0433C4008F08BE /* 03-空间不支持与用户交互的情况Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E6338FB01B0433C4008F08BE /* _3______________Tests.m */,
+				E6338FAE1B0433C4008F08BE /* Supporting Files */,
+			);
+			path = "03-空间不支持与用户交互的情况Tests";
+			sourceTree = "<group>";
+		};
+		E6338FAE1B0433C4008F08BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6338FAF1B0433C4008F08BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6338F901B0433C4008F08BE /* 03-空间不支持与用户交互的情况 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6338FB41B0433C4008F08BE /* Build configuration list for PBXNativeTarget "03-空间不支持与用户交互的情况" */;
+			buildPhases = (
+				E6338F8D1B0433C4008F08BE /* Sources */,
+				E6338F8E1B0433C4008F08BE /* Frameworks */,
+				E6338F8F1B0433C4008F08BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-空间不支持与用户交互的情况";
+			productName = "03-空间不支持与用户交互的情况";
+			productReference = E6338F911B0433C4008F08BE /* 03-空间不支持与用户交互的情况.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6338FA91B0433C4008F08BE /* 03-空间不支持与用户交互的情况Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6338FB71B0433C4008F08BE /* Build configuration list for PBXNativeTarget "03-空间不支持与用户交互的情况Tests" */;
+			buildPhases = (
+				E6338FA61B0433C4008F08BE /* Sources */,
+				E6338FA71B0433C4008F08BE /* Frameworks */,
+				E6338FA81B0433C4008F08BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6338FAC1B0433C4008F08BE /* PBXTargetDependency */,
+			);
+			name = "03-空间不支持与用户交互的情况Tests";
+			productName = "03-空间不支持与用户交互的情况Tests";
+			productReference = E6338FAA1B0433C4008F08BE /* 03-空间不支持与用户交互的情况Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6338F891B0433C4008F08BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = dulinlong;
+				TargetAttributes = {
+					E6338F901B0433C4008F08BE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					E6338FA91B0433C4008F08BE = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = E6338F901B0433C4008F08BE;
+					};
+				};
+			};
+			buildConfigurationList = E6338F8C1B0433C4008F08BE /* Build configuration list for PBXProject "03-空间不支持与用户交互的情况" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6338F881B0433C4008F08BE;
+			productRefGroup = E6338F921B0433C4008F08BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6338F901B0433C4008F08BE /* 03-空间不支持与用户交互的情况 */,
+				E6338FA91B0433C4008F08BE /* 03-空间不支持与用户交互的情况Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6338F8F1B0433C4008F08BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6338FA01B0433C4008F08BE /* Main.storyboard in Resources */,
+				E6338FA51B0433C4008F08BE /* LaunchScreen.xib in Resources */,
+				E6338FA21B0433C4008F08BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6338FA81B0433C4008F08BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6338F8D1B0433C4008F08BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6338F9D1B0433C4008F08BE /* ViewController.m in Sources */,
+				E6338FCE1B044260008F08BE /* mainView.m in Sources */,
+				E6338FD11B044452008F08BE /* DUButton.m in Sources */,
+				E6A9EF801B0CAD410008CE14 /* DUImageView.m in Sources */,
+				E6338F9A1B0433C4008F08BE /* AppDelegate.m in Sources */,
+				E6338FBC1B04349A008F08BE /* DUBaseView.m in Sources */,
+				E6338FC21B0434D7008F08BE /* DUYellowView.m in Sources */,
+				E6338FBF1B0434C8008F08BE /* DURedView.m in Sources */,
+				E6338FC81B043500008F08BE /* DUGreenView.m in Sources */,
+				E6338FCB1B043515008F08BE /* DULightRedView.m in Sources */,
+				E6338FC51B0434E5008F08BE /* DUblueView.m in Sources */,
+				E6338F971B0433C4008F08BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6338FA61B0433C4008F08BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6338FB11B0433C4008F08BE /* _3______________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6338FAC1B0433C4008F08BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6338F901B0433C4008F08BE /* 03-空间不支持与用户交互的情况 */;
+			targetProxy = E6338FAB1B0433C4008F08BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6338F9E1B0433C4008F08BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6338F9F1B0433C4008F08BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6338FA31B0433C4008F08BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6338FA41B0433C4008F08BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6338FB21B0433C4008F08BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6338FB31B0433C4008F08BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6338FB51B0433C4008F08BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03-空间不支持与用户交互的情况/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6338FB61B0433C4008F08BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03-空间不支持与用户交互的情况/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6338FB81B0433C4008F08BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "03-空间不支持与用户交互的情况Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-空间不支持与用户交互的情况.app/03-空间不支持与用户交互的情况";
+			};
+			name = Debug;
+		};
+		E6338FB91B0433C4008F08BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "03-空间不支持与用户交互的情况Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03-空间不支持与用户交互的情况.app/03-空间不支持与用户交互的情况";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6338F8C1B0433C4008F08BE /* Build configuration list for PBXProject "03-空间不支持与用户交互的情况" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6338FB21B0433C4008F08BE /* Debug */,
+				E6338FB31B0433C4008F08BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6338FB41B0433C4008F08BE /* Build configuration list for PBXNativeTarget "03-空间不支持与用户交互的情况" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6338FB51B0433C4008F08BE /* Debug */,
+				E6338FB61B0433C4008F08BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6338FB71B0433C4008F08BE /* Build configuration list for PBXNativeTarget "03-空间不支持与用户交互的情况Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6338FB81B0433C4008F08BE /* Debug */,
+				E6338FB91B0433C4008F08BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6338F891B0433C4008F08BE /* Project object */;
+}
